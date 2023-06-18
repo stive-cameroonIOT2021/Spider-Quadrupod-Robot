@@ -50,6 +50,7 @@ void loop()
 {
   
 
+  //call Functions here from instance class of Quad_spider
   
   /*Serial.println("Sit");
   robot->sit();
