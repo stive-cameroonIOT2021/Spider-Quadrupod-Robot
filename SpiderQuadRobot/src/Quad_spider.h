@@ -233,7 +233,7 @@ void Quad_spider::turn_right(unsigned int step)
       Quad_spider::set_site(2, x_default + x_offset, y_start, z_up);
       Quad_spider::wait_all_reach();
 
-      /*Quad_spider::set_site(0, turn_x0 - x_offset, turn_y0, z_default);
+      Quad_spider::set_site(0, turn_x0 - x_offset, turn_y0, z_default);
       Quad_spider::set_site(1, turn_x1 - x_offset, turn_y1, z_default);
       Quad_spider::set_site(2, turn_x0 + x_offset, turn_y0, z_up);
       Quad_spider::set_site(3, turn_x1 + x_offset, turn_y1, z_default);
@@ -255,7 +255,7 @@ void Quad_spider::turn_right(unsigned int step)
       Quad_spider::set_site(1, x_default + x_offset, y_start, z_default);
       Quad_spider::set_site(2, x_default - x_offset, y_start + y_step, z_default);
       Quad_spider::set_site(3, x_default - x_offset, y_start + y_step, z_default);
-      Quad_spider::wait_all_reach();*/
+      Quad_spider::wait_all_reach();
 
       Quad_spider::set_site(0, x_default + x_offset, y_start, z_default);
       Quad_spider::wait_all_reach();
@@ -266,7 +266,7 @@ void Quad_spider::turn_right(unsigned int step)
       Quad_spider::set_site(1, x_default + x_offset, y_start, z_up);
       Quad_spider::wait_all_reach();
 
-      /*Quad_spider::set_site(0, turn_x1 + x_offset, turn_y1, z_default);
+      Quad_spider::set_site(0, turn_x1 + x_offset, turn_y1, z_default);
       Quad_spider::set_site(1, turn_x0 + x_offset, turn_y0, z_up);
       Quad_spider::set_site(2, turn_x1 - x_offset, turn_y1, z_default);
       Quad_spider::set_site(3, turn_x0 - x_offset, turn_y0, z_default);
@@ -288,7 +288,7 @@ void Quad_spider::turn_right(unsigned int step)
       Quad_spider::set_site(1, x_default - x_offset, y_start + y_step, z_default);
       Quad_spider::set_site(2, x_default + x_offset, y_start, z_default);
       Quad_spider::set_site(3, x_default + x_offset, y_start, z_up);
-      Quad_spider::wait_all_reach();*/
+      Quad_spider::wait_all_reach();
 
       Quad_spider::set_site(3, x_default + x_offset, y_start, z_default);
       Quad_spider::wait_all_reach();
